@@ -25,6 +25,8 @@ header{
 }
 
 .space{
+    
+    margin-right: 28rem;
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
@@ -104,3 +106,190 @@ h3{
 
     background-color: rgb(53, 40, 177);
 }
+
+.planet{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    
+    
+}
+
+section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+   
+}
+
+.container {
+    display: flex;
+   
+    
+    
+}
+
+
+.planet1 {
+    margin-right: 1rem;
+    background-color: rgb(2, 0, 90);
+    width: 18rem;
+    height: 100%;
+    padding: 1rem;
+    
+    
+}
+
+
+.planet1 .urano{
+    
+    margin-left: 4rem;
+    width: 8rem;
+    
+}
+ 
+
+.titulo1{
+
+    text-align: center;
+    color: white;
+    padding: 1.1rem;
+}
+
+
+.planet2 {
+    margin-right: 1rem;
+    background-color: rgb(0, 54, 12);
+    width: 18rem;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+
+.planet2 .earth{
+    
+    margin-left: 3.5rem;
+    width: 9rem ;
+    
+    
+}
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: white;
+}
+
+
+.planet3{
+    margin-right: 1rem;
+    background-color: rgb(161, 0, 0);
+    width: 18rem;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+.planet3 .marte{
+
+    margin-left: 3.9rem;
+    width: 8rem ;
+}
+
+.titulo3{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.planet4{
+
+    background-color: rgb(97, 27, 0);
+    width: 18rem;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+
+.planet4 .jupiter{
+
+    margin-left: 3.0rem;
+    width: 10rem;
+}
+
+
+
+p{
+    color: white;
+}
+
+.titulo02{
+    
+    color: white;
+    background-color: rgb(0, 0, 24); ;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+
+.container3{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 24);
+    padding: 2rem;
+    
+}
+
+.container3 iframe{
+    border: 2px solid rgb(28, 11, 78) ;
+    margin-bottom: 9rem;
+    
+}
+
+
+
+footer{
+  background-color: rgb(10, 0, 19);
+  padding: 1rem;
+  height: 18rem;
+  
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    color: rgb(165, 0, 0);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    
+}
+
+.container-redes a{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.container-redes a:hover{
+
+    color: red;
+}
+
