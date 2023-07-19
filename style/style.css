@@ -18,6 +18,8 @@
 }
 
 header{
+    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,7 +53,7 @@ nav a:hover{
 }
 
 main{
-    
+   
     width: 40rem;
     color: white;
     display: block;
@@ -291,5 +293,27 @@ footer{
 .container-redes a:hover{
 
     color: red;
+}
+
+@media (max-width: 1170px){
+    .container{
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 914px ){
+  
+    header{
+        display: none;
+    }
+
+    main{
+        width: 40rem;
+        margin-left: 10%;
+    }
+
+
 }
 
