@@ -129,9 +129,26 @@ section{
 
 .container {
     display: flex;
+    transition: .5s;
    
     
     
+}
+
+.container .planet1:hover{
+    opacity: 80%;
+}
+
+.container .planet2:hover{
+    opacity: 80%;
+}
+
+.container .planet3:hover{
+    opacity: 80%;
+}
+
+.container .planet4:hover{
+    opacity: 80%;
 }
 
 
