@@ -312,14 +312,36 @@ footer{
     color: red;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
       
+    .container{
+        flex-direction: column;
+        
+    }
+
+    main h3{
+        display: none;
+        
+    }
+
     main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    button{
         width: 100%;
         height: auto;
     }
 
-   
+    nav{
+        display: none;
+
+    }
+
 
 }
 
